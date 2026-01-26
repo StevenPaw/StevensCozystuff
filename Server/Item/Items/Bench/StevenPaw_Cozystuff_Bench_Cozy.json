@@ -1,0 +1,177 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Bench_Cozy.name",
+    "Description": "server.items.Bench_Cozy.description"
+  },
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "",
+        "ItemId": "Wood_Softwood_Planks"
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Red",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Deco_Lantern",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Cozystuff_Bench_Cozy.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/bench_cozy.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "StevenPaw_Cozystuff_Bench_Cozy",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "Cozy_Basics",
+          "Icon": "Icons/CraftingCategories/Roadsigns/Basics.png",
+          "Name": "server.benchCategories.cozy.basics"
+        },
+        {
+          "Id": "Cozy_Furniture",
+          "Icon": "Icons/CraftingCategories/Roadsigns/Signs.png",
+          "Name": "server.benchCategories.cozy.furniture"
+        },
+        {
+          "Id": "Cozy_Paintings",
+          "Icon": "Icons/CraftingCategories/StevenPaw_Cozystuff_CraftingCategory_Paintings.png",
+          "Name": "server.benchCategories.cozy.paintings"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "Id": "Cozy_Bench",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 10
+              }
+            ]
+          }
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 15
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting.blockyanim"
+        },
+        "Tier2": {
+          "CustomModel": "Resources/Models/bench_roadsigns2.blockymodel",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "Looping": true,
+                "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting2.blockyanim"
+              },
+              "CraftCompletedInstant": {
+                "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting2.blockyanim"
+              }
+            }
+          }
+        },
+        "Tier3": {
+          "CustomModel": "Resources/Models/bench_roadsigns3.blockymodel",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "Looping": true,
+                "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting3.blockyanim"
+              },
+              "CraftCompletedInstant": {
+                "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting3.blockyanim"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#4e4137",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/Benches/bench_cozy.blockymodel",
+    "CustomModelScale": 1
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      13,
+      -13.2
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 7,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

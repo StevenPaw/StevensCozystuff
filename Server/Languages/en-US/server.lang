@@ -1,0 +1,35 @@
+items.Bench_Cozy.name=Cozy Workbench
+items.Bench_Cozy.description=A workbench for crafting cozy stuff
+benchCategories.cozy.basics=Cozy Basics
+benchCategories.cozy.furniture=Cozy Furniture
+benchCategories.cozy.paintings=Cozy Paintings
+
+items.StevenPaw_Cozystuff_Painting1x1.name=Cozy Painting (1x1)
+items.StevenPaw_Cozystuff_Painting1x2.name=Cozy Painting (1x2)
+items.StevenPaw_Cozystuff_Painting1x3.name=Cozy Painting (1x3)
+items.StevenPaw_Cozystuff_Painting1x4.name=Cozy Painting (1x4)
+items.StevenPaw_Cozystuff_Painting1x5.name=Cozy Painting (1x5)
+items.StevenPaw_Cozystuff_Painting2x1.name=Cozy Painting (2x1)
+items.StevenPaw_Cozystuff_Painting2x2.name=Cozy Painting (2x2)
+items.StevenPaw_Cozystuff_Painting2x3.name=Cozy Painting (2x3)
+items.StevenPaw_Cozystuff_Painting2x4.name=Cozy Painting (2x4)
+items.StevenPaw_Cozystuff_Painting2x5.name=Cozy Painting (2x5)
+items.StevenPaw_Cozystuff_Painting3x1.name=Cozy Painting (3x1)
+items.StevenPaw_Cozystuff_Painting3x2.name=Cozy Painting (3x2)
+items.StevenPaw_Cozystuff_Painting3x3.name=Cozy Painting (3x3)
+items.StevenPaw_Cozystuff_Painting3x4.name=Cozy Painting (3x4)
+items.StevenPaw_Cozystuff_Painting3x5.name=Cozy Painting (3x5)
+items.StevenPaw_Cozystuff_Painting4x1.name=Cozy Painting (4x1)
+items.StevenPaw_Cozystuff_Painting4x2.name=Cozy Painting (4x2)
+items.StevenPaw_Cozystuff_Painting4x3.name=Cozy Painting (4x3)
+items.StevenPaw_Cozystuff_Painting4x4.name=Cozy Painting (4x4)
+items.StevenPaw_Cozystuff_Painting4x5.name=Cozy Painting (4x5)
+items.StevenPaw_Cozystuff_Painting5x1.name=Cozy Painting (5x1)
+items.StevenPaw_Cozystuff_Painting5x2.name=Cozy Painting (5x2)
+items.StevenPaw_Cozystuff_Painting5x3.name=Cozy Painting (5x3)
+items.StevenPaw_Cozystuff_Painting5x4.name=Cozy Painting (5x4)
+items.StevenPaw_Cozystuff_Painting5x5.name=Cozy Painting (5x5)
+
+MushroomPainting.description=Mushroom Painting by StevenPaw, Next [{key}] 
+TreePainting.description=Tree Painting by StevenPaw, Next [{key}] 
+BushPainting.description=Bush Painting by StevenPaw, Next [{key}] 

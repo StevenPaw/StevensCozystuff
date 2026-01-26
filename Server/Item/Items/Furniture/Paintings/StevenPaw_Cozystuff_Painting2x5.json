@@ -1,0 +1,125 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Cozystuff_Painting2x5.name",
+    "Description": ""
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "InteractionHint": "server.MushroomPainting.description",
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Paintings/StevenPaw_Cozystuff_Painting2x5.blockymodel",
+    "Flags": {
+      "IsUsable": true
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Paintings/StevenPaw_Cozystuff_Painting2x5_Template.png"
+      }
+    ],
+    "HitboxType": "StevenPaw_Cozystuff_Painting2x5",
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#684127",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "2",
+              "1": "2",
+              "2": "3",
+              "3": "1"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "1": {
+          "InteractionHint": "server.MushroomPainting.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Textures/painting_mushroom.png"
+            }
+          ]
+        },
+        "2": {
+          "InteractionHint": "server.TreePainting.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Textures/painting_tree.png"
+            }
+          ]
+        },
+        "3": {
+          "InteractionHint": "server.BushPainting.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Textures/painting_bush.png"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11,
+      -34
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Softwood_Planks",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Cozy_Bench",
+        "Categories": [
+          "Cozy_Paintings"
+        ]
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Cozystuff_Painting2x5.png",
+  "Scale": 0.3
+}
