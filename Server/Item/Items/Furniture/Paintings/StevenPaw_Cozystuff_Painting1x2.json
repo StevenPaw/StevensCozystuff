@@ -7,7 +7,7 @@
     "Blocks.Deco"
   ],
   "BlockType": {
-    "InteractionHint": "server.MushroomPainting.description",
+    "InteractionHint": "server.StevenPaw_Cozystuff_Painting_Default.description",
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
@@ -55,26 +55,26 @@
     "State": {
       "Definitions": {
         "1": {
-          "InteractionHint": "server.MushroomPainting.description",
+          "InteractionHint": "server.StevenPaw_Cozystuff_Painting_Mushroom.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_mushroomwide.png"
+              "Texture": "Blocks/Paintings/1x2/StevenPaw_Cozystuff_Painting1x2_Mushrooms.png"
             }
           ]
         },
         "2": {
-          "InteractionHint": "server.TreePainting.description",
+          "InteractionHint": "server.StevenPaw_Cozystuff_Painting_Mushroom.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_treewide.png"
+              "Texture": "Blocks/Paintings/1x2/StevenPaw_Cozystuff_Painting1x2_Mushrooms.png"
             }
           ]
         },
         "3": {
-          "InteractionHint": "server.BushPainting.description",
+          "InteractionHint": "server.StevenPaw_Cozystuff_Painting_Mushroom.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_bushwide.png"
+              "Texture": "Blocks/Paintings/1x2/StevenPaw_Cozystuff_Painting1x2_Mushrooms.png"
             }
           ]
         }

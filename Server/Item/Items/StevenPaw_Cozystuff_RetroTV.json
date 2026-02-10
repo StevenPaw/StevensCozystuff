@@ -1,0 +1,171 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Cozystuff_RetroTV.name",
+    "Description": ""
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "InteractionHint": "server.StevenPaw_Cozystuff_ChangeDesign.description",
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Cozystuff_RetroTV.blockymodel",
+    "Flags": {
+      "IsUsable": true
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/StevenPaw_Cozystuff_RetroTV_off.png"
+      }
+    ],
+    "HitboxType": "StevenPaw_Cozystuff_RetroTV",
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#684127",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "1",
+              "0": "1",
+              "1": "2",
+              "2": "3",
+              "3": "4",
+              "4": "5",
+              "5": "0"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "0": {
+          "InteractionHint": "server.StevenPaw_Cozystuff_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Cozystuff_RetroTV_off.png"
+            }
+          ]
+        },
+        "1": {
+          "InteractionHint": "server.StevenPaw_Cozystuff_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Cozystuff_RetroTV.png"
+            }
+          ],
+          "Light": {
+            "Radius": 20,
+            "Color": "#60f"
+          }
+        },
+        "2": {
+          "InteractionHint": "server.StevenPaw_Cozystuff_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Cozystuff_RetroTV_static.png"
+            }
+          ],
+          "Light": {
+            "Radius": 20,
+            "Color": "#60f"
+          }
+        },
+        "3": {
+          "InteractionHint": "server.StevenPaw_Cozystuff_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Cozystuff_RetroTV_gaming.png"
+            }
+          ],
+          "Light": {
+            "Radius": 20,
+            "Color": "#0f2"
+          }
+        },
+        "4": {
+          "InteractionHint": "server.StevenPaw_Cozystuff_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Cozystuff_RetroTV_jump.png"
+            }
+          ],
+          "Light": {
+            "Radius": 20,
+            "Color": "#0f2"
+          }
+        },
+        "5": {
+          "InteractionHint": "server.StevenPaw_Cozystuff_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Cozystuff_RetroTV_desktop.png"
+            }
+          ],
+          "Light": {
+            "Radius": 20,
+            "Color": "#08f"
+          }
+        }
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.68,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -1,
+      -9
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Softwood_Planks",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Cozy_Bench",
+        "Categories": [
+          "Cozy_Paintings"
+        ]
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Cozystuff_RetroTV.png"
+}

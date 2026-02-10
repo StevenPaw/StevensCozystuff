@@ -7,7 +7,7 @@
     "Blocks.Deco"
   ],
   "BlockType": {
-    "InteractionHint": "server.MushroomPainting.description",
+    "InteractionHint": "server.StevenPaw_Cozystuff_Painting_Default.description",
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",

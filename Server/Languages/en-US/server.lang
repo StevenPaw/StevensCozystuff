@@ -30,6 +30,9 @@ items.StevenPaw_Cozystuff_Painting5x3.name=Cozy Painting (5x3)
 items.StevenPaw_Cozystuff_Painting5x4.name=Cozy Painting (5x4)
 items.StevenPaw_Cozystuff_Painting5x5.name=Cozy Painting (5x5)
 
-MushroomPainting.description=Mushroom Painting by StevenPaw, Next [{key}] 
-TreePainting.description=Tree Painting by StevenPaw, Next [{key}] 
-BushPainting.description=Bush Painting by StevenPaw, Next [{key}] 
+items.StevenPaw_Cozystuff_RetroTV.name=Retro TV
+
+StevenPaw_Cozystuff_Painting_Default.description=Press [{key}] to set a painting 
+StevenPaw_Cozystuff_Painting_Mushroom.description=Mushroom Painting by StevenPaw, Next [{key}] 
+StevenPaw_Cozystuff_Painting_Splash.description=Splash by StevenPaw, Next [{key}]
+StevenPaw_Cozystuff_ChangeDesign.description=Press [{key}] to change Design
