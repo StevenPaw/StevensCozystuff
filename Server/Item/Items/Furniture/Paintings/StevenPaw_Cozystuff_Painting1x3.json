@@ -58,7 +58,7 @@
           "InteractionHint": "server.MushroomPainting.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_mushroomwide.png"
+              "Texture": "Blocks/Paintings/1x3/StevenPaw_Cozystuff_Painting1x3_Mushrooms.png"
             }
           ]
         },
@@ -66,7 +66,7 @@
           "InteractionHint": "server.TreePainting.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_treewide.png"
+              "Texture": "Blocks/Paintings/1x3/StevenPaw_Cozystuff_Painting1x3_Mushrooms.png"
             }
           ]
         },
@@ -74,7 +74,7 @@
           "InteractionHint": "server.BushPainting.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_bushwide.png"
+              "Texture": "Blocks/Paintings/1x3/StevenPaw_Cozystuff_Painting1x3_Mushrooms.png"
             }
           ]
         }

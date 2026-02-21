@@ -96,43 +96,6 @@
     "State": {
       "Id": "crafting",
       "Definitions": {
-        "CraftCompleted": {
-          "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting.blockyanim",
-          "Looping": true
-        },
-        "CraftCompletedInstant": {
-          "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting.blockyanim"
-        },
-        "Tier2": {
-          "CustomModel": "Resources/Models/bench_roadsigns2.blockymodel",
-          "State": {
-            "Id": "crafting",
-            "Definitions": {
-              "CraftCompleted": {
-                "Looping": true,
-                "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting2.blockyanim"
-              },
-              "CraftCompletedInstant": {
-                "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting2.blockyanim"
-              }
-            }
-          }
-        },
-        "Tier3": {
-          "CustomModel": "Resources/Models/bench_roadsigns3.blockymodel",
-          "State": {
-            "Id": "crafting",
-            "Definitions": {
-              "CraftCompleted": {
-                "Looping": true,
-                "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting3.blockyanim"
-              },
-              "CraftCompletedInstant": {
-                "CustomModelAnimation": "Resources/Animations/bench_roadsigns_crafting3.blockyanim"
-              }
-            }
-          }
-        }
       }
     },
     "Gathering": {

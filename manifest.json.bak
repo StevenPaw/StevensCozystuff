@@ -1,5 +1,5 @@
 {
-  "Group": "stevenpaw",
+  "Group": "SP",
   "Name": "Stevens Cozystuff",
   "Version": "0.1.0",
   "Description": "",
@@ -16,5 +16,6 @@
   "LoadBefore": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "SubPlugins": []
+  "SubPlugins": [],
+  "ServerVersion": "2026.02.17-255364b8e"
 }

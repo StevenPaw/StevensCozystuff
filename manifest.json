@@ -1,7 +1,7 @@
 {
   "Group": "SP",
   "Name": "Stevens Cozystuff",
-  "Version": "0.1.0",
+  "Version": "1.3.0",
   "Description": "",
   "Authors": [
     {
@@ -10,7 +10,8 @@
       "Url": "stevenpaw.de"
     }
   ],
-  "Website": "",
+  "Website": "https://www.curseforge.com/hytale/mods/stevens-roadstuff",
+  "ServerVersion": "2026.02.17-255364b8e",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},

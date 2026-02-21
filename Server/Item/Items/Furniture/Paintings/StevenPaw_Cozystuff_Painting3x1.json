@@ -20,7 +20,7 @@
         "Texture": "Blocks/Paintings/StevenPaw_Cozystuff_Painting3x1_Template.png"
       }
     ],
-    "HitboxType": "StevenPaw_Cozystuff_Painting2x1",
+    "HitboxType": "StevenPaw_Cozystuff_Painting3x1",
     "VariantRotation": "NESW",
     "Gathering": {
       "Soft": {
@@ -58,7 +58,7 @@
           "InteractionHint": "server.MushroomPainting.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_mushroom.png"
+              "Texture": "Blocks/Paintings/StevenPaw_Cozystuff_Painting3x1_Template.png"
             }
           ]
         },
@@ -66,7 +66,7 @@
           "InteractionHint": "server.TreePainting.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_tree.png"
+              "Texture": "Blocks/Paintings/StevenPaw_Cozystuff_Painting3x1_Template.png"
             }
           ]
         },
@@ -74,7 +74,7 @@
           "InteractionHint": "server.BushPainting.description",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Textures/painting_bush.png"
+              "Texture": "Blocks/Paintings/StevenPaw_Cozystuff_Painting3x1_Template.png"
             }
           ]
         }
